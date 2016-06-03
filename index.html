@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Emoji!</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <meta name="viewport" content="width=device-width,
+                                   initial-scale=1.0,
+                                   maximum-scale=1.0,
+                                   user-scalable=no,
+                                   minimal-ui">
+    <link rel="stylesheet" href="app.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="text/javascript" src="emoji.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="app-topbar">
+        <div class="app-title">Emoji! - Chibz</div>
+    </div>
+
+    <div class="app-section" id="sectionOne">
+        <p id="resultEmoji"></p>
+        <p id="resultTextCategory"></p>
+        <p id="resultTextBase">choose between Candy/Sushi/Cool</p>
+    </div>
+
+    <div class="row">
+        <div class="app-button" id="candyBtn"> Candy</div>
+        <div class="app-button" id="sushiBtn"> Sushi</div>
+        <div class="app-button" id="coolBtn"> Cool</div>
+    </div>
+
+    <div id="searchBox">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">😍</span>
+            <input type="text" class="form-control" id="searchField" placeholder="Search on a term..." aria-describedby="basic-addon1" value="">
+        </div>
+        
+        <h4>The number of emoji's that contains the search term somewhere in its name is:</h4>
+        <p id="searchResult">...</p>
+    </div>
+
+    <div class="row">
+        <div class="app-button" id="searchBtn"><span class="glyphicon glyphicon-heart-empty"></span> Search</div>
+    </div>
+
+    <!-- put your pages here -->
+    <script src="app.min.js"></script>
+
+</body>
+
+</html>

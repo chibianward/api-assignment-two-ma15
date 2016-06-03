@@ -1,0 +1,83 @@
+p {
+    font-size: 80px;
+    text-align: left;
+}
+
+#variants {
+    font-size: 20px;
+}
+#resultText {
+    padding-top: 100px;
+    margin-left: 90px;
+}
+.button {
+    margin-left: 100px;
+}
+
+.app-section {
+    background-color: whitesmoke;
+    height: 180px;
+}
+
+#sectionOne {
+    height: 180px;
+}
+
+.app-title {
+    text-align: center;
+    margin-left: auto;
+}
+#candyBtn {
+    background-color: aqua;
+    text-align: center ;
+     font-size: 25px;
+}
+
+#sushiBtn {
+    background-color: orange;
+    text-align: center ;
+     font-size: 25px;
+}
+
+#coolBtn {
+    background-color: aquamarine; 
+    text-align: center ;
+    font-size: 25px;
+}
+
+#searchBtn {
+    background-color: peachpuff;
+    text-align: center ;
+     font-size: 25px;
+}
+
+#resultEmoji {
+    margin-left: auto;
+    text-align: center;
+}
+#resultTextCategory {
+    margin-left: auto;
+    margin-top:     0px;
+    text-align: center;
+    font-size: 16px;
+}
+#resultTextBase {
+    margin-left: auto;
+    text-align: center;
+    font-size: 16px;
+}
+#searchResult {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    height: 50px;
+}
+#searchBox {
+    margin-top: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+}
